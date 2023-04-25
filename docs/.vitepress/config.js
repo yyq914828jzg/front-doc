@@ -1,3 +1,5 @@
+import { useRouter } from 'vitepress';
+
 export default {
   title: '创金工具库',
   description: '组件、公共方法等',

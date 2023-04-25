@@ -16,11 +16,10 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果部署到 https://<USERNAME>.github.io
-git push -f https://gitee.com/jiazhigang828/docs.git master:gh-pages
 
-# 如果是部署到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f https://github.com/yyq914828jzg/front-doc.git master:gh-pages
+
+
 
 cd -
 
