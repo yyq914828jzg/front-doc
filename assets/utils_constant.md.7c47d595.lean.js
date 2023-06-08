@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,e as l}from"./chunks/framework.beee6370.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"utils/constant.md"}'),o={name:"utils/constant.md"},p=l("",15),e=[p];function t(D,c,r,y,F,C){return a(),n("div",null,e)}const d=s(o,[["render",t]]);export{i as __pageData,d as default};

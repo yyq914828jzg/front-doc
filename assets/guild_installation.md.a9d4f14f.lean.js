@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,e as r}from"./chunks/framework.beee6370.js";const _=JSON.parse('{"title":"安装","description":"","frontmatter":{},"headers":[],"relativePath":"guild/installation.md"}'),i={name:"guild/installation.md"},n=r("",16),o=[n];function l(s,h,c,d,p,m){return e(),t("div",null,o)}const b=a(i,[["render",l]]);export{_ as __pageData,b as default};
