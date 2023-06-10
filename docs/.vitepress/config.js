@@ -3,10 +3,12 @@ import { useRouter } from 'vitepress';
 export default {
   title: '创金工具库',
   description: '组件、公共方法等',
-  lastUpdated:true,
   base:"/front-doc/",
-  lang: 'en-US',
   themeConfig: {
+    
+    socialLinks: [
+      { icon: "github", link: "http://git.5irich.com/richadmin/new-tc-admin.git" },
+    ],
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/components/button" },
@@ -15,10 +17,6 @@ export default {
         {text:'项目成员',link:"/components/table"},
       ] },
     ],
-    socialLinks: [
-      { icon: "github", link: "http://git.5irich.com/richadmin/new-tc-admin.git" },
-    ],
-    
     sidebar: {
       '/guild/': [
         {
@@ -89,21 +87,21 @@ export default {
         {text:'日期工具类',link:"/utils/date"},
       ]
     },
-    search: {
-      provider: 'local',
-      options: {
-        appId: 'F5SR282GNJ',
-        apiKey: 'f61006a9f0a5f35280db2c7d4e099026',
-        indexName: '5itich'
-      }
-    },
-    footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
-    },
-    docFooter: {
-      prev: '',
-      next: ''
-    }
+    // search: {
+    //   provider: 'local',
+    //   options: {
+    //     appId: 'F5SR282GNJ',
+    //     apiKey: 'f61006a9f0a5f35280db2c7d4e099026',
+    //     indexName: '5itich'
+    //   }
+    // },
+    // footer: {
+    //   message: 'Released under the MIT License.',
+    //   copyright: 'Copyright © 2019-present Evan You'
+    // },
+    // docFooter: {
+    //   prev: '',
+    //   next: ''
+    // }
   }
 }

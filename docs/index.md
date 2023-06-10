@@ -9,7 +9,7 @@ hero:
   text: 一个Vue3组件库
   tagline: 没啥特点仅供学习
   image:
-    src: /logo.png
+    src: /logos.png
     alt: 创金
   actions:
     - theme: brand

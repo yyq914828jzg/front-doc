@@ -1,7 +1,24 @@
-### 创金的table组件
+### 代码块
+```js 
+/**
+ * @debounce 防抖函数
+ * @param fn 执行函数
+ * @param time 时间间隔
+ */
+// @ts-ignore
+export function debounce(fn, time? = 300) {
+  let timer: any = null;
+  return function (...arg) {
+    if (timer) clearTimeout(timer);
+    timer = setTimeout(() => {
+      fn.apply(this, arg);
+    }, time);
+  };
+}
+```
 
 
-
+### 代码组
 
 ::: code-group
 
@@ -49,4 +66,4 @@ This is a details block.
 :::
 
 
-<!--@include: ../guild/number.md-->
+
